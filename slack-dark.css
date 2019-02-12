@@ -268,7 +268,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn_link:hover, .btn_link:focus { color: #c7c7c7; }
 
-.btn-group.open .btn.dropdown-toggle { background-color: #ffae1a; }
+.btn-group.open .btn.dropdown-toggle { background-color: #545454; }
 
 .btn-group.open .btn-primary.dropdown-toggle { background-color: #424242; }
 
@@ -282,11 +282,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .input_note { color: #e6e6e6; }
 
-.c-enhanced_text_input { background-color: #ffae1a; border-color: #363636; color: #949494; }
+.c-enhanced_text_input { background-color: #545454; border-color: #363636; color: #949494; }
 
-.c-enhanced_text_input:hover, .c-enhanced_text_input.c-enhanced_text_input--active { border-color: #ffae1a; }
+.c-enhanced_text_input:hover, .c-enhanced_text_input.c-enhanced_text_input--active { border-color: #545454; }
 
-.c-filter_input { background: #ffae1a; }
+.c-filter_input { background: #545454; }
 
 .p-share_dialog_message_input { color: #e6e6e6; }
 
@@ -294,7 +294,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .lazy_filter_select.disabled input.lfs_input { background: #828282; }
 
-.lazy_filter_select .lfs_input_container { background-color: #ffae1a; border-color: #000; }
+.lazy_filter_select .lfs_input_container { background-color: #545454; border-color: #000; }
 
 .lazy_filter_select .lfs_input_container.active, .lazy_filter_select .lfs_input_container:hover { border-color: #363636; }
 
@@ -338,7 +338,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
 
-#msg_form #msg_input { background: padding-box #ffae1a; border-color: #424242; border-left: 0; color: #e6e6e6; }
+#msg_form #msg_input { background: padding-box #545454; border-color: #424242; border-left: 0; color: #e6e6e6; }
 
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
 
@@ -346,7 +346,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form .msg_mentions_button:hover { color: #e6e6e6; }
 
-#msg_input { background: #ffae1a; border-color: #424242; color: #e6e6e6; }
+#msg_input { background: #545454; border-color: #424242; color: #e6e6e6; }
 
 #msg_input::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -370,7 +370,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #363636; color: #e6e6e6; }
 
-#primary_file_button { background: padding-box #ffae1a; border-color: #424242; color: #949494; }
+#primary_file_button { background: padding-box #545454; border-color: #424242; color: #949494; }
 
 #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #424242; border-color: #363636; color: #e6e6e6; }
 
@@ -386,7 +386,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #special_formatting_text { color: #949494; }
 
-#message_edit_container .inline_message_input_container, #message_edit_container .inline_message_input_container.with_file_upload, #threads_msgs .inline_message_input_container, #threads_msgs .inline_message_input_container.with_file_upload, #reply_container.upload_in_threads .inline_message_input_container, #reply_container.upload_in_threads .inline_message_input_container.with_file_upload { background: #ffae1a; border-color: #363636; color: #e6e6e6; }
+#message_edit_container .inline_message_input_container, #message_edit_container .inline_message_input_container.with_file_upload, #threads_msgs .inline_message_input_container, #threads_msgs .inline_message_input_container.with_file_upload, #reply_container.upload_in_threads .inline_message_input_container, #reply_container.upload_in_threads .inline_message_input_container.with_file_upload { background: #545454; border-color: #363636; color: #e6e6e6; }
 
 .inline_message_input_container .ql-container { border-color: #ffae1a; color: #e6e6e6; }
 
