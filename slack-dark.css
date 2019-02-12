@@ -36,7 +36,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 ::-webkit-scrollbar-track { background: #363636 !important; border-left-color: #363636 !important; border-right-color: #363636 !important; color: #363636 !important; }
 
-::-webkit-scrollbar-thumb { background: #ffae1a !important; border-left-color: #363636 !important; border-right-color: #363636 !important; color: #222 !important; }
+::-webkit-scrollbar-thumb { background: #545454 !important; border-left-color: #363636 !important; border-right-color: #363636 !important; color: #222 !important; }
 
 ::-webkit-scrollbar-corner { background: #222 !important; }
 
@@ -44,17 +44,17 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .monkey_scroll_bar { background: #424242; }
 
-.monkey_scroll_handle_inner { background: #ffae1a; border: 1px solid #828282; }
+.monkey_scroll_handle_inner { background: #545454; border: 1px solid #828282; }
 
 .monkey_scroll_bar_native_scrollbar_shim { background: transparent; }
 
 #client-ui .monkey_scroll_bar { background: #424242; }
 
-#client-ui .monkey_scroll_handle_inner { background: #ffae1a; border: 3px solid #222; }
+#client-ui .monkey_scroll_handle_inner { background: #545454; border: 3px solid #222; }
 
 .c-scrollbar--monkey .c-scrollbar__track { background: #424242; }
 
-.c-scrollbar--monkey .c-scrollbar__bar { background: #ffae1a; box-shadow: 0 3px 0 #222, 0 -3px 0 #222; }
+.c-scrollbar--monkey .c-scrollbar__bar { background: #545454; box-shadow: 0 3px 0 #222, 0 -3px 0 #222; }
 
 .client_channels_list_container { background-color: #363636; border-right-color: #222; }
 
@@ -216,7 +216,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn { background-color: #545454; color: #e6e6e6 !important; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
-.btn.hover, .btn:focus, .btn:hover, .btn.active, .btn:active { background-color: #ffae1a; color: #e6e6e6; }
+.btn.hover, .btn:focus, .btn:hover, .btn.active, .btn:active { background-color: #545454; color: #e6e6e6; }
 
 .btn.btn_border { border: 2px solid #424242; }
 
@@ -232,7 +232,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_outline.disabled:hover { background: #424242 !important; color: #949494 !important; }
 
-.btn.btn_attachment { border-color: #ffae1a; }
+.btn.btn_attachment { border-color: #545454; }
 
 .btn.btn_attachment:hover, .btn.btn_attachment:focus { background-color: #363636; border-color: #828282; }
 
