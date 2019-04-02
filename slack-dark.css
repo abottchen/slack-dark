@@ -722,7 +722,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #team_menu .presence .presence_icon { text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
+#team_menu .team_name_caret, #team_menu .notifications_menu_btn { color: #e6e6e6 !important; }
+
 #team_menu_user { color: #949494; }
+
+#team_menu_user_name, #team_menu_user_details { color: #e6e6e6 !important; opacity: 0.75; }
 
 .slack_menu_section::before { border-top-color: #222; }
 
@@ -947,6 +951,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .c-message__call--ended .c-message__call_icon { color: #949494; }
 
 .c-message__call_info { color: #e6e6e6; }
+
+.c-message__call_name--linked { color: #e6e6e6; }
 
 .c-message__call_name + .c-message__call_description::before { color: #949494; }
 
@@ -1761,6 +1767,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #details_tab .conversation_details .member_name:hover { color: #949494; }
 
+#details_tab .conversation_details .member_username:hover { color: #e6e6e6; }
 
 #details_tab .conversation_details .member_info_timezone { border-top-color: #ffae1a; }
 
@@ -2122,6 +2129,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #search_results_team .team_result a:hover { color: #c7c7c7; }
 
+#search_results_team .member_name { color: #e6e6e6 !important; }
 
 .suggestion { color: #e6e6e6; }
 
@@ -2311,7 +2319,9 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #team_tab #member_preview_scroller { background-color: #222; }
 
+#team_tab #member_preview_scroller .member_details .member_name { color: #e6e6e6; }
 
+#member_preview_scroller .member_details .member_name_and_presence .member_name, #member_preview_web_container .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_name_and_presence .member_name { color: #e6e6e6; }
 
 #member_preview_scroller .member_details .member_title, #member_preview_web_container .member_details .member_title, .menu_member_header .member_details .member_title { color: #e6e6e6; }
 
@@ -2333,6 +2343,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 .team_list_item { border-top: 1px solid #ffae1a; color: #949494; }
 
+.team_list_item .member_name { color: #e6e6e6; }
 
 #client-ui .searchable_member_list .team_list_item a, #client-ui #team_list .team_list_item a, #member_preview_scroller .team_list_item a { color: #e6e6e6 !important; }
 
@@ -2344,6 +2355,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #client-ui .searchable_member_list .team_list_item:hover { background: #545454; }
 
+.c-unified_member__display-name, .c-unified_member__secondary-name, .c-unified_member__title, .c-unified_member__other-names, .c-unified_member__other-names { color: #e6e6e6 !important; }
 
 #convo_tab #convo_tab_btns .close_flexpane:focus, #convo_tab #convo_tab_btns .close_flexpane:hover { color: #e6e6e6; }
 
@@ -2375,7 +2387,9 @@ ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_c
 
 #whats_new_tab .flex_heading_controls label { color: #949494; }
 
+.c-member__display-name, .c-team__display-name, .c-usergroup__handle { color: #e6e6e6; }
 
+.c-member__current-status--small::before, .c-member__secondary-name--large + .c-member__current-status--large::before, .c-member__secondary-name--medium + .c-member__current-status--medium::before { color: #e6e6e6; }
 
 .c-member .external_team_badge { background-color: #545454; box-shadow: 0 0 0 2px #ffae1a; }
 
@@ -2383,6 +2397,7 @@ ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_c
 
 .c-member .external_team_badge::after { box-shadow: inset 0 0 0 1px #ffae1a; }
 
+.c-member__name--small, .c-team__name--small, .c-usergroup__name--small { color: #e6e6e6; }
 
 .c-member--small .presence { color: #949494; }
 
@@ -2396,14 +2411,17 @@ ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_c
 
 .c-member--dark .c-member__name, .c-member--dark .c-member__secondary-name { color: #949494; }
 
+.c-member--dark .c-member__display-name, .c-member--dark .presence { color: #e6e6e6; }
 
 .c-member--medium { color: #949494; }
 
 .c-member--medium .presence { color: #949494; }
 
+.c-member__secondary-name--medium { color: #e6e6e6; }
 
 .c-member--large { color: #949494; }
 
+.c-member__display-name--large, .c-member__title--large { color: #e6e6e6; }
 
 .c-member__other-names--large { color: #949494; }
 
@@ -2910,6 +2928,7 @@ ts-jumper ol li.highlighted { background: #828282 !important; color: #e6e6e6 !im
 
 ts-jumper ol:not(.keyboard_active) li:hover { background: #828282 !important; color: #e6e6e6 !important; }
 
+ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .member_real_name + .member_username, ts-jumper ol li.highlighted .member_username + .member_real_name, ts-jumper ol li.highlighted i.presence_icon, ts-jumper ol li.highlighted ts-icon, ts-jumper ol:not(.keyboard_active) li:hover .channel_not_member, ts-jumper ol:not(.keyboard_active) li:hover .member_real_name + .member_username, ts-jumper ol:not(.keyboard_active) li:hover .member_username + .member_real_name, ts-jumper ol:not(.keyboard_active) li:hover i.presence_icon, ts-jumper ol:not(.keyboard_active) li:hover ts-icon { color: #e6e6e6; }
 
 .basic_share_dialog .share_dialog_divider { border-top-color: transparent; }
 
@@ -2987,7 +3006,9 @@ ts-jumper ol:not(.keyboard_active) li:hover { background: #828282 !important; co
 
 .menu_member_header { background: #000; }
 
+.menu_member_header .member_details .member_name_and_presence { color: #e6e6e6; }
 
+.menu_member_header .member_details .member_name_and_presence .member_name { color: #e6e6e6; }
 
 .menu_member_header .member_details .member_name_and_presence .presence.away { color: #fff; }
 
@@ -3169,6 +3190,7 @@ a.two_factor_choice:hover .two_factor_link, a.two_factor_choice:link:hover .two_
 
 .admin_list_item:hover { background-color: #363636; }
 
+.admin_list_item .admin_member_full_name, .admin_list_item .admin_member_real_name { color: #e6e6e6; }
 
 .admin_list_item .admin_member_type, .admin_list_item .admin_member_caret { color: #949494; }
 
